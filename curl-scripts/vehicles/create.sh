@@ -2,13 +2,12 @@ curl "http://localhost:4741/vehicles" \
   --include \
   --request POST \
   --header "Content-Type: application/json" \
+  --header "Authorization: Token token=${TOKEN}" \
   --data '{
     "vehicle": {
         "make": "'"${MAKE}"'",
         "model": "'"${MODEL}"'",
-        "color": "'"${COLOR}"'",
-        "registration_plate_number": "'"${PLATE}"'",
-        "user_id":"'"${USER_ID}"'"
+        "registration_plate_number": "'"${PLATE}"'"
       }
    }'
 
