@@ -17,6 +17,10 @@ Parking lot registration is a back end application programming interface. Single
 
 ### Development site link: http://localhost:4741/
 
+## Entity relationship diagram
+
+![wireframe diagram](./img/erd.jpg)
+
 ## Technologies used
 
 Github
